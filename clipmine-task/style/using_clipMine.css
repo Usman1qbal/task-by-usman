@@ -1,0 +1,110 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 649px){
+    .Using_clipMine
+    {
+        background-color: rgb(232, 224, 245);
+        color: black;
+        transform: translate(0%,-70px);
+        height: 900px;
+        width: auto;
+        
+    }
+    
+    .partners_img
+    {
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: repeat(2,3fr);
+        grid-column-gap: 200px;
+        grid-row-gap: 70px;
+        transform: translate(260px,10px);
+    }
+    .partner_image_setting
+    {
+        width: 350px;
+        height: 160px;
+    }
+    
+    .ending_video
+    {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        color: gray;
+        text-align: center;
+        transform: translate(280px, 40px);
+        max-width: 1000px;
+        height: 50px;
+    }
+}
+
+@media only screen and (min-device-width: 650px) and (max-device-width: 850px){
+    .Using_clipMine
+    {
+        background-color: rgb(232, 224, 245);
+        color: black;
+        transform: translate(0%,-70px);
+        height: 700px;
+        
+    }
+    
+    .partners_img
+    {
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: repeat(3,2fr);
+        grid-column-gap: 200px;
+        grid-row-gap: 70px;
+        transform: translate(210px,10px);
+    }
+    .partner_image_setting
+    {
+        width: 350px;
+        height: 160px;
+    }
+    
+    .ending_video
+    {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color: gray;
+        text-align: center;
+        transform: translate(450px, 40px);
+        max-width: 1000px;
+        height: 50px;
+    }
+}
+@media only screen and (min-device-width: 850px) {
+    .Using_clipMine
+    {
+        background-color: rgb(232, 224, 245);
+        color: black;
+        transform: translate(0%,-70px);
+        height: 700px;
+        
+    }
+    
+    .partners_img
+    {
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: repeat(3,2fr);
+        grid-column-gap: 200px;
+        grid-row-gap: 70px;
+        transform: translate(210px,10px);
+    }
+    .partner_image_setting
+    {
+        width: 350px;
+        height: 160px;
+    }
+    
+    .ending_video
+    {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color: gray;
+        text-align: center;
+        transform: translate(450px, 40px);
+        max-width: 1000px;
+        height: 50px;
+    }
+}

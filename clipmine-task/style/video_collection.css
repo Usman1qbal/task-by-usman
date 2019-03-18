@@ -1,0 +1,145 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 649px){
+    .heading_video
+    {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 60px;
+        color: black;
+        text-align: center;
+        transform: translate(250px, 0%);
+        max-width: 1000px;
+        height: 50px;
+        position: relative;
+        
+    }
+    .video_collection_grid
+    {
+        display: grid;
+        grid-template-columns: repeat(1,900px);
+        transform: translate(0px, 0%);
+        max-width: 1000px;
+        
+    }
+    
+    .img_video
+    {
+        width: 1200px;
+        height: 500px;
+        padding-left: 100px;
+        position: relative;
+        padding-bottom: 100px;
+    }
+    
+    .text_align_video
+    {
+        position: relative;
+        text-align: center;    
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 56px;
+        color: white;
+        transform: translate(220px, -490px);
+    }
+    
+    .end_line_video
+    {
+        position: relative;
+        transform: translate(250px, -130px);
+        max-width: 1000px;
+    }
+}
+
+@media only screen and (min-device-width: 650px) and (max-device-width: 850px){
+    .heading_video
+    {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 45px;
+        color: black;
+        text-align: center;
+        transform: translate(450px, 0%);
+        max-width: 1000px;
+        height: 50px;
+        position: relative;
+        
+    }
+    .video_collection_grid
+    {
+        display: grid;
+        grid-template-columns: repeat(2,900px);
+        transform: translate(90px, 0%);
+        max-width: 1000px;
+        
+    }
+    
+    .img_video
+    {
+        width: 700px;
+        height: 350px;
+        padding-left: 100px;
+        position: relative;
+        padding-bottom: 100px;
+    }
+    
+    .text_align_video
+    {
+        position: relative;
+        text-align: center;    
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 45px;
+        color: white;
+        transform: translate(35px, -360px);
+    }
+    
+    .end_line_video
+    {
+        position: relative;
+        transform: translate(480px, -130px);
+        max-width: 1000px;
+    }
+}
+@media only screen and (min-device-width: 850px) {
+    .heading_video
+    {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 45px;
+        color: black;
+        text-align: center;
+        transform: translate(450px, 0%);
+        max-width: 1000px;
+        height: 50px;
+        position: relative;
+        
+    }
+    .video_collection_grid
+    {
+        display: grid;
+        grid-template-columns: repeat(2,900px);
+        transform: translate(90px, 0%);
+        max-width: 1000px;
+        
+    }
+    
+    .img_video
+    {
+        width: 600px;
+        height: 250px;
+        padding-left: 100px;
+        position: relative;
+        padding-bottom: 100px;
+    }
+    
+    .text_align_video
+    {
+        position: relative;
+        text-align: center;    
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 28px;
+        color: white;
+        transform: translate(-50px, -260px);
+    }
+    
+    .end_line_video
+    {
+        position: relative;
+        transform: translate(480px, -130px);
+        max-width: 1000px;
+    }
+}

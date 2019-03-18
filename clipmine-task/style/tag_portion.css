@@ -1,0 +1,113 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 649px){
+    .tag_link
+    {
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       max-width: 1000px;
+       transform: translate(340px, 0%);
+       
+    }
+    .tag_btn
+    {
+        width:160px;
+        height: 80px;
+        color: rgb(224, 164, 164);
+        font-size: 25px;
+        border: 0px;
+        background-color: rgb(97, 97, 214);
+    }
+    .textbox
+    {
+        width: 650px;
+        
+    }
+    
+    ::placeholder {
+        color: blue;
+        opacity: 3; /* Firefox */
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        
+      }
+
+    .tag_portion
+    {
+        height: 500px;
+    }
+    
+}
+
+@media only screen and (min-device-width: 650px) and (max-device-width: 850px){
+    .tag_link
+    {
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       max-width: 1000px;
+       transform: translate(580px, 0%);
+       
+    }
+    .tag_btn
+    {
+        width:120px;
+        height: 50px;
+        color: rgb(224, 164, 164);
+        font-size: 19px;
+        border: 0px;
+        background-color: rgb(97, 97, 214);
+    }
+    .textbox
+    {
+        width: 600px;
+    }
+
+    ::placeholder {
+        color: blue;
+        opacity: 3; /* Firefox */
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        
+      }
+    .tag_portion
+    {
+        height: 400px;
+    }
+    
+}
+@media only screen and (min-device-width: 850px) {
+    .tag_link
+    {
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       max-width: 1000px;
+       transform: translate(580px, 0%);
+       
+    }
+
+    ::placeholder {
+        color: blue;
+        opacity: 3; /* Firefox */
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        
+      }
+
+    .tag_btn
+    {
+        width:120px;
+        height: 50px;
+        color: rgb(224, 164, 164);
+        font-size: 19px;
+        border: 0px;
+        background-color: rgb(97, 97, 214);
+    }
+    .textbox
+    {
+        width: 600px;
+    }
+    
+    .tag_portion
+    {
+        height: 400px;
+    }
+    
+}
